@@ -4,11 +4,14 @@ Lekki system klasyfikacji intencji w języku naturalnym (NLP), symulujący obsł
 # Kluczowe Funkcjonalności
 Rozpoznawanie intencji (Intent Recognition): Klasyfikacja tekstu do jednej z trzech kategorii: zapytanie o saldo, wpłata lub wypłata.
 
-# Przetwarzanie wstępne (Preprocessing): Wykorzystanie tokenizacji i techniki paddingu sekwencji do ujednolicenia wejścia danych tekstowych dla modelu.
+# Przetwarzanie wstępne (Preprocessing): 
+Wykorzystanie tokenizacji i techniki paddingu sekwencji do ujednolicenia wejścia danych tekstowych dla modelu.
 
-# Dynamiczne zarządzanie stanem: System w czasie rzeczywistym aktualizuje wirtualne saldo konta w zależności od wyniku klasyfikacji.
+# Dynamiczne zarządzanie stanem: 
+System w czasie rzeczywistym aktualizuje wirtualne saldo konta w zależności od wyniku klasyfikacji.
 
-# Obsługa logiki transakcyjnej: Weryfikacja dostępności środków przed wykonaniem operacji wypłaty.
+# Obsługa logiki transakcyjnej:
+Weryfikacja dostępności środków przed wykonaniem operacji wypłaty.
 
 # Stos technologiczny (Tech Stack)
 Język: Python.
